@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build APK
-        uses: ArtemMendel/Buildozer-Action@v1
+        uses: ArtemSBulgakov/buildozer-action@master
         with:
           command: buildozer android debug
           buildozer_version: stable
